@@ -1,0 +1,58 @@
+.entrans {
+  font-family: Montserrat;
+}
+.cart {
+  display: flex;
+  margin: 0 -30px;
+  width: 100%;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  width: 328px;
+  height: 248px;
+  flex-direction: column;
+  position: static;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  order: 0;
+  transition: 0.3s;
+  margin-left: 30px;
+  margin-bottom: 256px;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 7px 15px rgba(71, 147, 255, 0.2);
+  }
+  .icon {
+    padding: 35px 40px 0;
+  }
+
+  .service {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252b42;
+    padding: 0 35px;
+  }
+  .border {
+    width: 50px;
+    height: 2px;
+    background: #e74040;
+    margin-left: 35px;
+    flex: none;
+    flex-grow: 0;
+  }
+  .text {
+    font-size: 14px;
+    line-height: 20px;
+
+    letter-spacing: 0.2px;
+    color: #737373;
+
+    order: 3;
+    flex-grow: 0;
+    padding: 0 0 35px 35px;
+  }
+}
