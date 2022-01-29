@@ -3,6 +3,9 @@
   align-items: center;
   justify-content: space-between;
   max-width: 1440px;
+  width: 100%;
+}
+.wrapper {
   height: 79px;
   border-bottom: 2px solid black;
   width: 100%;
@@ -46,4 +49,28 @@
 
   flex: none;
   cursor: pointer;
+}
+@media screen and (max-width: 540px) {
+  .button {
+    width: 150px;
+    padding: 0;
+    right: 10px;
+  }
+  @media screen and (max-width: 540px) {
+    .contacts {
+      padding: 0;
+      right: 250px;
+    }
+  }
+  @media screen and (max-width: 415px) {
+    .contacts {
+      right: 180px;
+      top: 28px;
+    }
+  }
+  @media screen and (max-width: 415px) {
+    .logo {
+      left: 40px;
+    }
+  }
 }

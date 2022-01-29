@@ -18,9 +18,11 @@ function Header(props: Props) {
   return (
     <header className={s.header}>
       <div className={s.wrapper}>
-        <div className={s.logo}>
-          <GlobalSvgSelector id="logo-svg" />
-        </div>
+        <Link to="/">
+          <div className={s.logo}>
+            <GlobalSvgSelector id="logo-svg" />
+          </div>
+        </Link>
       </div>
       <div className={s.wrapper}>
         <Link to="contacts">
